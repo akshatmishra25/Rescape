@@ -1,0 +1,63 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+
+/* --------------------------- MOBILE VERSION ------------------------------ */
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+.cover {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+    /* @media only screen and (min-device-width: 64em) {
+        .page {
+            /* font-size: 1.25em; */
+        
+    
+        /* .cover {
+            width: 25%;
+            height: 65%;
+        }
+     */ 
+
+.alt-login{
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+.alt-login div {
+    width: 47.5%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.google{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png");
+}
