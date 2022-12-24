@@ -1,0 +1,390 @@
+:root {
+    --dark-color: #141414;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    color: #999;
+}
+
+ul {
+  list-style: none;  
+}
+
+h1, h2, h3, h4 {
+   color: #fff; 
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.showcase {
+  width: 100%; 
+  height: 98.5vh;
+  position: relative;
+  background-color: #fff; 
+}
+
+.showcase::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+}
+
+.showcase-top {
+    position: relative;
+    z-index: 2;
+    height: 90px;
+}
+
+.showcase-top img{
+    width: 140px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+ .selection select{
+    background: transparent;
+    color: #fff;
+    position: absolute;
+    padding: 6px 0 6px 17px;
+    border-radius: 2px;
+    top: 34%;
+    right:12%;
+}
+
+.selection svg {
+    top: 40%;
+    right: 16.7%;
+    height: 20px;
+    fill: #fff;
+    position: absolute;
+}
+
+.showcase-top a{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.showcase-content{
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+    max-width: 655px;
+}
+
+.showcase-content h1{
+    color: #141414;
+   font-weight: bold;
+   font-size: 3.125rem;
+   line-height: 1.1;
+    margin: 0 0 1rem;
+    line-height: 1.0;
+    margin: 0 0 1rem;
+
+}
+
+.showcase-content h2{
+    color: #222;
+    font-weight: 400;
+    font-size: 1.625rem;
+    margin: 0 0 1.5rem;
+    margin-top: 13px;
+    margin-bottom: 29px;
+}
+
+.showcase-content h3{
+
+   color: #303030;
+   font-weight: normal;
+   font-size: 1.2rem;
+   margin: 0 0 1.2rem; 
+}
+
+.showcase-content form {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr max-content;
+}
+
+.showcase-content input {
+    padding: 15px 10px;
+    font-size: 1.2rem;
+    width: 475px;
+}
+/* Sections */
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 46px;
+    padding: 70px 35px;
+    border-top: 8px solid #222;
+    align-items: center;
+    background-color: #000;
+}
+
+section.last {
+    border-bottom: 8px solid #222;
+}
+
+section div.texts h1{
+    font-size: 3.125rem;
+    margin-bottom: 8px;
+}
+
+section div.texts p{
+    font-size: 1.625rem; 
+}
+
+.faqSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media {
+    position: relative;
+}
+
+.media.s-1 img{
+    width: 400px;
+}
+
+.media.s-1 video {
+    width: 293px;
+    position: absolute;
+    top: 62px;
+    left: 52px;
+}
+.evenSection{
+    background-color: #fff;
+}
+
+.evenSection h1{
+    color: #141414;
+}
+
+section:nth-child(odd) div.texts {
+    order: 2;
+}
+
+section div.download {
+    border: 2px solid #666;
+    border-radius: 15px;
+    padding: 10px;
+    height: 95px;
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    text-align: center;
+    align-items: center; 
+    bottom: 34px;
+    width: 370px;
+    left: 37%;
+    margin-left: -140px;
+    background-color: #000;
+    gap: 15px;
+    position: absolute;
+}
+
+section div.media img.phone{
+   max-width: 100%;
+   height: 420px;
+}
+
+section div.download img{
+   height: 60px;
+   width: auto;
+}
+
+.media.s-3 img{
+    width: 400px;
+    position: relative;
+    z-index: 5;
+}
+
+.media.s-3 video {
+    width: 258px;
+    position: absolute;
+    top: 36px;
+    left: 72px;
+}
+
+/* Faq */
+
+div.faq {
+    padding: 70px 30px;
+}
+
+div.faq h1 {
+   font-size: 3.125rem;
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 40px;
+}
+
+div.questions {
+    max-width: 635px;
+    margin: 0 auto;
+    font-size: 1.625rem;
+}
+
+div.question {
+    position: relative;
+    background-color: #303030;
+    margin-bottom: 10px;
+}
+
+div.question svg {
+    width: 30px;
+    height: 30px;
+    right: 30px;
+    top: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+}
+
+div.question .header {
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+div.question div.answer {
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+div.question input[type="checkbox"] {
+    display: none;
+}
+
+div.question input[type="checkbox"]:checked ~ div.answer {
+    padding: 30px 30px;
+    max-height: 600px;
+}
+
+div.question input[type="checkbox"]:checked ~ .header svg {
+    transform: rotate(180deg);
+}
+
+div.faq form {
+    max-width: 635px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#mail {
+    top: 30px;
+    width: 310px;
+    height: 54px;
+    margin-right: 0;
+}
+
+div.faq p {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#answer-6 {
+    margin-bottom: 60px;
+}
+
+/* Container */
+.container {
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+/*  view */
+
+@media (max-width: 960px) {
+    .showcase {
+        height: 72vh;
+    }
+
+    .showcase-top img{
+        left:5%;
+        top:30%;
+        transform: translate(0);
+    }
+}
+
+/*Buttons*/
+.btn {
+   display: inline-block; 
+   background: var(--dark-color);
+   color: #fff;
+   padding: 0.4rem 1.3rem;
+   font-size: 0.9rem;
+   text-align: center;
+   border: none;
+   cursor: pointer;
+   margin-right: 0.5rem;
+   outline: none;
+   box-shadow: 0 1px 0 rgba(0,0,0, 0.45);
+   border-radius: 2px; 
+}
+
+.btn:hover {
+   opacity: 0.9; 
+}
+
+.btn-rounded {
+    border-radius: 5px;
+}
+
+.btn-xl {
+   
+   font-size: 1.625rem;
+   padding: 12px 26px; 
+   border: 0;
+   font-weight: normal;
+}
+
+.btn-lg {
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;  
+ } 
