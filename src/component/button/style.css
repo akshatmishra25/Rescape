@@ -19,7 +19,7 @@
     transition: all 0.5s linear;
   }
   .button::before {
-    content: "";
+    content:normal;
     position: relative;
     display: block;
     height: 50px;
@@ -65,7 +65,7 @@
       0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
   }
   
-  .button2 {
+  .button2  {
     position:absolute;
     display:flex;
     padding:25px 25px;
@@ -159,7 +159,7 @@
     left: 0;
     width: 3px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #3a86ff);
+    background: linear-gradient(360deg, transparent, #0062ff);
     animation: animate4 1.5s linear infinite;
     animation-delay: 1.2s;
   }

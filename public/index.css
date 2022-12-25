@@ -352,39 +352,4 @@ div.faq p {
 }
 
 /*Buttons*/
-.btn {
-   display: inline-block; 
-   background: var(--dark-color);
-   color: #fff;
-   padding: 0.4rem 1.3rem;
-   font-size: 0.9rem;
-   text-align: center;
-   border: none;
-   cursor: pointer;
-   margin-right: 0.5rem;
-   outline: none;
-   box-shadow: 0 1px 0 rgba(0,0,0, 0.45);
-   border-radius: 2px; 
-}
 
-.btn:hover {
-   opacity: 0.9; 
-}
-
-.btn-rounded {
-    border-radius: 5px;
-}
-
-.btn-xl {
-   
-   font-size: 1.625rem;
-   padding: 12px 26px; 
-   border: 0;
-   font-weight: normal;
-}
-
-.btn-lg {
-    font-size: 1rem;
-    padding: 0.8rem 1.3rem;
-    text-transform: uppercase;  
- } 
