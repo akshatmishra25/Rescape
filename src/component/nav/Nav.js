@@ -4,30 +4,12 @@ import React from 'react';
 // import './style.css'
 import Buttons from '../button/buttons';
 
+
 const Nav = () => {
-  // const [show, setShow] =useState(false);
-  
-
-
-  // const scrollHandler = () => {
-  //   if (window.scrollY > 10) {
-  //     setShow(true);
-  //   } else {
-  //     setShow(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', scrollHandler);
-  //   return () => {
-  //     window.removeEventListener('scroll', scrollHandler);
-  //   };
-  // }, []);
-
   return (
     <nav
       style={{
-        backgroundColor: 'rgb(25,25,25)',
+        backgroundColor: 'rgb(25,25,25)'
       }}
     >
       {/* <section> */}
@@ -50,6 +32,7 @@ const Nav = () => {
         <div className='nav_right'>
           
         <Buttons />
+        
           
         </div>
       {/* </section> */}
