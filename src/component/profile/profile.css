@@ -1,0 +1,19 @@
+.data{
+    margin-top: -48px;
+    display: flex;
+    margin-left: -85px;
+    margin-right: 300px;
+    font-family: 'Arial', sans-serif;
+    font-size: large;
+    align-items: center;
+}
+img.dataimg{
+    max-height: 2%;
+    max-width: 12%;
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: -200px;
+}
