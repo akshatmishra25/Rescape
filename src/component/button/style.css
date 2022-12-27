@@ -64,23 +64,24 @@
     text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc, 0 0 30px #82bedc,
       0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
   }
+
   
   .button2  {
     position:absolute;
     display:flex;
     padding:25px 25px;
-     align-items: center; 
+    align-items: center; 
     justify-content: space-between;
-    border-radius: 5px;
+    border-radius: 25px;
     color: #000000;
-    margin-left:150px;
+    margin-left:260px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-    margin-top: -27px;
-    font-weight: 900;
+    margin-top: -30px;
+    font-weight: 600;
     font-size: large;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Arial', sans-serif;
     filter: hue-rotate(0deg);
     border: 2px solid #d2bdff;
     transition: all 0.2s linear;

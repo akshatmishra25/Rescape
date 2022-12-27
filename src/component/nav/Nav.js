@@ -1,6 +1,6 @@
 import './Nav.css';
 import React from 'react';
-
+import Profile from '../profile/Profile'
 // import './style.css'
 import Buttons from '../button/buttons';
 
@@ -23,8 +23,7 @@ const Nav = () => {
             <a href='/'> HOME </a>
             <a href='/'> RESUMEs </a>
             <a href='/'> CVs </a>
-            <a href='/'> RESUMEs Examples </a>
-            <a href='/'> CONTACT </a>
+            <a href='/'> MY RESUMEs</a>
             <a href='/'> FAQs </a>
             
           </div>
@@ -32,7 +31,7 @@ const Nav = () => {
         <div className='nav_right'>
           
         <Buttons />
-        
+        <Profile/>
           
         </div>
       {/* </section> */}

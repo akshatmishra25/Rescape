@@ -4,13 +4,15 @@ nav {
     height: 8vh;
     width: 100%;
     position: relative;
-    z-index: 10;
+    font-family: 'Arial', sans-serif;
+    z-index: 100;
     font-size: 1rem;
 }
 
 .nav_left {
     width: 85%;
     height: 100%;
+    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +32,7 @@ nav {
     margin-right:auto;
     display: flex;
     align-items: center;
+    font-family: 'Arial', sans-serif;
     justify-content:space-between;
     
 }
@@ -38,6 +41,7 @@ nav {
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-left: 1rem;
+    font-family: 'Arial', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     transition: 0.6s ease;
@@ -53,6 +57,7 @@ nav {
     color: rgb(255, 255, 255);
     display: flex;
     align-items:center;
+    font-family: 'Arial', sans-serif;
     justify-content: space-between;
     flex: 1;
     margin-left: 75%;
@@ -62,5 +67,13 @@ nav {
 
 }
 
-
+.svg{
+    width: 30px;
+    height: 30px;
+    right: 30px;
+    top: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+}
 
